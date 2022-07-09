@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestImpactAnalysis.Demo.PlanetEarth
+namespace TestImpactAnalysis.Demo.PlanetMars
 {
-    //d
     public class Class1
     {
     }
