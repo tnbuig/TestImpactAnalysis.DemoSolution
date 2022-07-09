@@ -19,7 +19,6 @@ jobs:
         dotnet-version: 5.0.x
     - name: Restore dependencies 
       run: dotnet restore ./source/TestImpactAnalysis.Demo.sln
-    - name: Build
-      run: dotnet build --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+    - name: Build 
+      run: dotnet build ./source/TestImpactAnalysis.Demo.PlanetEarth/TestImpactAnalysis.Demo.PlanetEarth.csproj --no-restore 
+    
