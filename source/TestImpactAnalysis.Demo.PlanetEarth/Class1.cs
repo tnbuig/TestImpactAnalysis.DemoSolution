@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace TestImpactAnalysis.Demo.PlanetEarth
 {
     //d
-    public class Class1
+    Class1
     {
     }
 }
